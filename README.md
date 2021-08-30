@@ -11,23 +11,24 @@ This high-quality labelled dataset may be used to train and test machine learnin
 
 
 ## Directory Structure Within PBC_dataset.zip
-+--othe_types
-|   +--basophil       (1218 images)
-|   +--erythroblast   (1551 images)
-|   +--ig             (2895 images)
-|   +--platelet       (2348 images)
-+--wbc (4 major types of white blood cells)
-|   +--eosinophil     (3117 images)
-|   +--lymphocyte     (1214 images)
-|   +--monocyte       (1420 images)
-|   +--neutrophil     (3329 images)
-+--wbc_resized (same images as in ../wbc, but resized to 128 * 128)
-|   +--EOSINOPHIL
-|   +--LYMPHOCYTE
-|   +--MONOCYTE
-|   +--NEUTROPHIL
-+--resize.py 
-   
+      .
+      +--othe_types
+      |   +--basophil       # (1218 images)
+      |   +--erythroblast   # (1551 images)
+      |   +--ig             # (2895 images)
+      |   +--platelet       # (2348 images)
+      +--wbc               # 4 major types of white blood cells
+      |   +--eosinophil     # (3117 images)
+      |   +--lymphocyte     # (1214 images)
+      |   +--monocyte       # (1420 images)
+      |   +--neutrophil     # (3329 images)
+      +--wbc_resized       # Same images as in ../wbc, resized to 128 * 128
+      |   +--EOSINOPHIL
+      |   +--LYMPHOCYTE
+      |   +--MONOCYTE
+      |   +--NEUTROPHIL
+      +--resize.py 
+
 
 ## Citation
 Acevedo, Andrea; Merino, Anna; Alferez, Santiago; Molina, Ángel; Boldú, Laura; Rodellar, José (2020), “A dataset for microscopic peripheral blood cell images for development of automatic recognition systems”, Mendeley Data, V1, doi: 10.17632/snkd93bnjr.1
